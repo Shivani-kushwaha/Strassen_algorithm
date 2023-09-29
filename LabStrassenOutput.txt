@@ -1,0 +1,85 @@
+
+########
+
+Comparing Brute Force (Ordinary) and Strassen Multiplication for Matrix Order 2
+
+########
+
+Matrix Multiplication Method: Strassen
+No. of Multiplications: 7
+Time taken to compute: 5.030632019042969e-05
+Result:
+[16, 17]
+[26, 22]
+
+------
+
+------
+Matrix Multiplication Method: Ordinary
+No. of Multiplications: 8
+Time taken to compute: 9.059906005859375e-06
+Result:
+[16, 17]
+[26, 22]
+
+########
+
+Comparing Brute Force (Ordinary) and Strassen Multiplication for Matrix Order 4
+
+########
+
+Matrix Multiplication Method: Strassen
+No. of Multiplications: 49
+Time taken to compute: 0.0003352165222167969
+Result:
+[-1, -4, -2, 13]
+[7, -6, 2, 6]
+[11, 5, -1, 1]
+[-6, 9, -8, 3]
+
+------
+
+------
+Matrix Multiplication Method: Ordinary
+No. of Multiplications: 64
+Time taken to compute: 2.193450927734375e-05
+Result:
+[-1, -4, -2, 13]
+[7, -6, 2, 6]
+[11, 5, -1, 1]
+[-6, 9, -8, 3]
+
+########
+
+Comparing Brute Force (Ordinary) and Strassen Multiplication for Matrix Order 8
+
+########
+
+Matrix Multiplication Method: Strassen
+No. of Multiplications: 343
+Time taken to compute: 0.0024199485778808594
+Result:
+[-4, 4, 6, 3, -4, -3, -6, -10]
+[7, 4, 0, -5, 11, 0, 0, 8]
+[6, -11, 0, -8, -4, 4, 8, 5]
+[-4, 11, 7, 1, -6, 1, -4, -3]
+[-7, 2, -2, 8, 6, -5, -4, 6]
+[9, -1, 10, -3, 11, 4, 5, 10]
+[18, 9, 13, 12, 5, 3, 0, -2]
+[18, -5, -4, -11, -3, 1, 3, 3]
+
+------
+
+------
+Matrix Multiplication Method: Ordinary
+No. of Multiplications: 512
+Time taken to compute: 0.00012421607971191406
+Result:
+[-4, 4, 6, 3, -4, -3, -6, -10]
+[7, 4, 0, -5, 11, 0, 0, 8]
+[6, -11, 0, -8, -4, 4, 8, 5]
+[-4, 11, 7, 1, -6, 1, -4, -3]
+[-7, 2, -2, 8, 6, -5, -4, 6]
+[9, -1, 10, -3, 11, 4, 5, 10]
+[18, 9, 13, 12, 5, 3, 0, -2]
+[18, -5, -4, -11, -3, 1, 3, 3]
